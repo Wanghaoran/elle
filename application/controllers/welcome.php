@@ -40,14 +40,14 @@ class Welcome extends CI_Controller {
             if(!$this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
                 die('<h1>Authorization failure! Insert User Error</h1>');
             }else{
+                //将OPENID写入session
                 $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
             }
         }
 
-        echo '<pre>';
-        var_dump($this->session->all_userdata());
-        echo '</pre>';
-	}
+        //加载首页
+        $this->load->view('index');
+    }
 
 
 }
