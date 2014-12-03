@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/christmassnow.js" afterPath="$PROJECT_DIR$/public/js/christmassnow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="35" selection-start="2349" selection-end="2349" vertical-scroll-proportion="-21.115385" vertical-offset="352" max-vertical-offset="1207">
+            <state line="13" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.24833998" vertical-offset="51" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -64,16 +64,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="1203" selection-end="1212" vertical-scroll-proportion="-4.326923" vertical-offset="81" max-vertical-offset="2278">
+            <state line="18" column="25" selection-start="1203" selection-end="1212" vertical-scroll-proportion="20.51923" vertical-offset="1373" max-vertical-offset="2278">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="christmassnow.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="christmassnow.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/christmassnow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="46" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.6662162" vertical-offset="612" max-vertical-offset="2686">
+            <state line="65" column="46" selection-start="3434" selection-end="3434" vertical-scroll-proportion="-18.961538" vertical-offset="612" max-vertical-offset="2686">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1417632362000" expanded="false" signature="2601:2608" placeholder="..." />
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/views/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/public/js/christmassnow.js" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
   </component>
@@ -474,20 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="1203" selection-end="1212" vertical-scroll-proportion="-4.326923" vertical-offset="81" max-vertical-offset="2278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="35" selection-start="2349" selection-end="2349" vertical-scroll-proportion="-21.115385" vertical-offset="352" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/snowflake1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -505,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/christmassnow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="46" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.6662162" vertical-offset="612" max-vertical-offset="2686">
+        <state line="65" column="46" selection-start="3434" selection-end="3434" vertical-scroll-proportion="-18.961538" vertical-offset="612" max-vertical-offset="2686">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1417632362000" expanded="false" signature="2601:2608" placeholder="..." />
@@ -515,6 +501,20 @@
             <marker date="1417632362000" expanded="false" signature="3505:3512" placeholder="..." />
             <marker date="1417632362000" expanded="false" signature="3717:3724" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="1203" selection-end="1212" vertical-scroll-proportion="20.51923" vertical-offset="1373" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.24833998" vertical-offset="51" max-vertical-offset="1207">
+          <folding />
         </state>
       </provider>
     </entry>

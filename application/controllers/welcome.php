@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
         //授权跳转
         $this->load->helper('url');
         if(empty($_GET['code'])){
-            $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa06d1604e750da71&redirect_uri=' . urlencode('http://elle.cnhtk.cn/') . '&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect';
+            $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa06d1604e750da71&redirect_uri=' . urlencode('http://elle.cnhtk.cn/') . '&response_type=code&scope=snsapi_base&state=index#wechat_redirect';
             redirect($token_url);
         }
 
