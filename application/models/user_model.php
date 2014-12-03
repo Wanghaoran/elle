@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Quan_model extends CI_Model {
+class User_model extends CI_Model {
 
     public function __construct()
     {
@@ -8,23 +8,27 @@ class Quan_model extends CI_Model {
         $this -> load -> database();
     }
 
-
-    //插入已中出优惠券的用户
-    public function insertuser($openID){
-        $openID = trim($openID);
-        $data = array(
-            'openID' => $openID,
-            'time' => time(),
-        );
-
-        return $this -> db -> insert('quan', $data);
+    //查询用户是否存在
+    public function queryhave($openID){
+        $query = $this -> db -> get_where('user', array('openid' => $openID), 1);
+        return $query -> result_array();
     }
 
-    //查询用户是否中出优惠券
-    public function checkquan($openID){
-        $openID = trim($openID);
-        $query = $this -> db -> get_where('quan', array('openID' => $openID), 1);
-        return $query -> result_array();
+    //创建用户资料
+    public function insertuser($openid, $nickname, $sex, $language, $city, $province, $country, $headimgurl){
+        $data = array(
+            'openid' => $openid,
+            'nickname' => $nickname,
+            'sex' => $sex,
+            'language' => $language,
+            'city' => $city,
+            'province' => $province,
+            'country' => $country,
+            'headimgurl' => $headimgurl,
+            'addtime' => date('Y-m-d H:i:s'),
+        );
+
+        return $this -> db -> insert('user', $data);
     }
 
 
