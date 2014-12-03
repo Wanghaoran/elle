@@ -45,7 +45,7 @@ class Welcome extends CI_Controller {
         }
 
         echo '<pre>';
-        var_dump($_COOKIE);
+        var_dump(get_cookie('elle_wechat_openid'));
         echo '</pre>';
 	}
 
