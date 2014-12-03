@@ -33,19 +33,19 @@ class Welcome extends CI_Controller {
         $this->load->helper('cookie');
         $this -> load -> model('user_model');
         if($this -> user_model -> queryhave($result_arr['openid'])){
-            //将OPENID写入cookie
-            set_cookie('elle_wechat_openid', $result_arr['openid']);
+            //将OPENID写入session
+            $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
         }else{
             //创建用户资料
             if(!$this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
                 die('<h1>Authorization failure! Insert User Error</h1>');
             }else{
-                set_cookie('elle_wechat_openid', $result_arr['openid']);
+                $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
             }
         }
 
         echo '<pre>';
-        var_dump(get_cookie('elle_wechat_openid'));
+        var_dump($this->session->all_userdata());
         echo '</pre>';
 	}
 
