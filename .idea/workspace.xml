@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/btn_hdgz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/btn_share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img_jp1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img_jp2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img_jp3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/img_jp4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jpbg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/snowflake9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/christmassnow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" afterPath="" />
-    </list>
+    <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="" />
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,7 +206,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
