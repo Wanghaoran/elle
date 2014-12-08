@@ -50,21 +50,24 @@ class Welcome extends CI_Controller {
 
     public function gift(){
 
+        $data = array();
+
+
         $this -> load -> model('detail_model');
 
         //验证今天是否还能刮
-        $this -> detail_model -> checknum($this->session->userdata('elle_wechat_id'));
+        if($this -> detail_model -> checknum($this->session->userdata('elle_wechat_id'))){
+            //奖池
+            $gift_arr = array(1,2,3,4);
+            //随机生成奖品
+            $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
             //增加今天的刮奖次数
-        $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
+            $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
 
-        //奖池
-        $gift_arr = array(1,2,3,4);
-
-        $data = array();
-
-        //随机生成奖品
-        $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
+        }else{
+            die('bad');
+        }
 
 
         $this->load->view('gift', $data);

@@ -33,12 +33,11 @@ class Detail_model extends CI_Model {
         $this -> db -> where('date', date('Y-m-d'));
         $num_friend = $this->db->count_all_results('friend');
 
-        var_dump($num);
-        var_dump($num_friend);
-
-
-
-        return true;
+        if($num - $num_friend >= 3){
+            return false;
+        }else{
+            return true;
+        }
     }
 
 

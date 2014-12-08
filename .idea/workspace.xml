@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/detail_model.php" afterPath="$PROJECT_DIR$/application/models/detail_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="41" selection-start="2732" selection-end="2732" vertical-scroll-proportion="-25.115385" vertical-offset="520" max-vertical-offset="2482">
+            <state line="71" column="0" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.57370824" vertical-offset="452" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -43,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="detail_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="52" selection-start="817" selection-end="817" vertical-scroll-proportion="0.41337386" vertical-offset="0" max-vertical-offset="2040">
+            <state line="40" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="2023">
               <folding />
             </state>
           </provider>
@@ -139,8 +140,8 @@
         <option value="$PROJECT_DIR$/application/views/gift.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/models/friend_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/detail_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
   </component>
@@ -678,16 +679,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="41" selection-start="2732" selection-end="2732" vertical-scroll-proportion="-25.115385" vertical-offset="520" max-vertical-offset="2482">
+        <state line="40" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="2023">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="52" selection-start="817" selection-end="817" vertical-scroll-proportion="0.41337386" vertical-offset="0" max-vertical-offset="2040">
+        <state line="71" column="0" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.57370824" vertical-offset="452" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>
