@@ -66,7 +66,8 @@ class Welcome extends CI_Controller {
             $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
 
         }else{
-            die('bad');
+            $data['gift_num'] = 0;
+
         }
 
 
