@@ -25,7 +25,8 @@ class Detail_model extends CI_Model {
 
         //当天已经刮了的次数
         $this -> db -> where('uid', $uid);
-        $num = $this->db->count_all_results('my_table');
+        $this -> db -> where('date', date('Y-m-d'));
+        $num = $this->db->count_all_results('detail');
 
         var_dump($num);
 
