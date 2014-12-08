@@ -58,7 +58,7 @@ class Welcome extends CI_Controller {
         $data = array();
 
         //随机生成奖品
-        $data['gift_num'] = array_rand($gift_arr);
+        $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
 
         $this->load->view('gift', $data);
