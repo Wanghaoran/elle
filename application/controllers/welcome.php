@@ -30,7 +30,6 @@ class Welcome extends CI_Controller {
         }
 
         //查询是否有此用户纪录，没有的话数据库新建
-        $this->load->helper('cookie');
         $this -> load -> model('user_model');
         if($query_result = $this -> user_model -> queryhave($result_arr['openid'])){
             //将ID写入session
@@ -51,7 +50,17 @@ class Welcome extends CI_Controller {
 
     public function gift(){
 
-        var_dump($this->session->all_userdata());
+        $this -> load -> model('detail_model');
+
+
+
+        //验证今天是否还能刮
+
+        //增加今天的刮奖次数
+        if(!$this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'))){
+            die('<h1>Add User Detail failure</h1>');
+        }
+
 
         //奖池
         $gift_arr = array(1,2,3,4);
