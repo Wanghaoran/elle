@@ -103,8 +103,30 @@ class Welcome extends CI_Controller {
             die('<h1>Authorization failure2!' .  $result_arr['errmsg'] . '</h1>');
         }
 
-        var_dump($state_uid);
-        var_dump($result_arr);
+
+        //查询是否有此用户纪录，没有的话数据库新建
+        $this -> load -> model('user_model');
+        if($query_result = $this -> user_model -> queryhave($result_arr['openid'])){
+            //将ID写入session
+            $this->session->set_userdata('elle_wechat_id', $query_result[0]['id']);
+            $fuid = $query_result[0]['id'];
+        }else{
+            //创建用户资料
+            if(!$insert_id = $this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
+                die('<h1>Authorization failure3! Insert User Error</h1>');
+            }else{
+                //将ID写入session
+                $this->session->set_userdata('elle_wechat_id', $insert_id);
+                $fuid = $insert_id;
+            }
+        }
+
+        //将朋友点击记录到数据库中
+        $this -> load -> model('friend_model');
+        $this -> friend_model -> insertdata($fuid, $state_uid, date('Y-m-d'));
+
+        //加载首页
+        $this->load->view('index');
 
     }
 

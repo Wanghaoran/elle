@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/friend_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,16 @@
       <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="14" selection-start="3652" selection-end="3652" vertical-scroll-proportion="0.6641337" vertical-offset="758" max-vertical-offset="2125">
+            <state line="109" column="26" selection-start="4248" selection-end="4248" vertical-scroll-proportion="0.54787236" vertical-offset="1132" max-vertical-offset="2499">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friend_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="30" selection-start="264" selection-end="274" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="2006">
               <folding />
             </state>
           </provider>
@@ -56,15 +67,6 @@
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="34" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="61" selection-start="2669" selection-end="2669" vertical-scroll-proportion="-10.096154" vertical-offset="308" max-vertical-offset="2346">
               <folding />
             </state>
           </provider>
@@ -139,6 +141,7 @@
         <option value="$PROJECT_DIR$/application/models/detail_model.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/models/friend_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
@@ -677,9 +680,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="264" selection-end="274" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="14" selection-start="3652" selection-end="3652" vertical-scroll-proportion="0.6641337" vertical-offset="758" max-vertical-offset="2125">
+        <state line="109" column="26" selection-start="4248" selection-end="4248" vertical-scroll-proportion="0.54787236" vertical-offset="1132" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
