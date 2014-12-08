@@ -26,12 +26,16 @@
     </script>
 </head>
 <body>
+
 <div class="box" id="bb">
     <div class="test" id="test"><img src="<?=$this->config->base_url()?>/public/images/img1.jpg"/>
-        <div class="jiangpin"><a href="<?=$this->config->base_url()?>/gift"></a></div>
+        <div class="jiangpin">
+            <a href="<?=$this->config->base_url()?>/gift"></a>
+        </div>
     </div>
     <canvas id="cas"></canvas>
 </div>
+
 <!--雪花-->
 <div class="drop"></div>
 <script type="text/javascript" charset="utf-8">
@@ -43,7 +47,7 @@
     //alert(canvas.width);
     //alert(canvas.height);
     var img = new Image();
-    img.src = "<?=$this->config->base_url()?>/public/images/start.jpg";
+    img.src = "<?=$this->config->base_url()?>/images/start.jpg";
 
     img.onload = function(){
         ctx.drawImage(img,0,0,canvas.width,canvas.height)

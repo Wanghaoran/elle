@@ -23,15 +23,49 @@
                 flakeheightandwidth: 15 // if you are mention that option flakesize is 2 then this flakeheightandwidth should work values are in pixels 16*16.
             });
         });
+
+        //分享层
+        function showShare(){
+            $(".jpbox").hide();
+            $("#popDiv1").show();
+        }
+
+        function closeShare(){
+            $("#popDiv1").hide();
+            $(".jpbox").show();
+        }
+
+        //活动规则
+        function showActive(){
+            $(".jpbox").hide();
+            $("#popDiv2").show();
+        }
+
+        function closeActive(){
+            $("#popDiv2").hide();
+            $(".jpbox").show();
+        }
     </script>
 </head>
 <body>
+<!--pop start-->
+<div id="popDiv1" class="mydiv">
+    <img src="<?=$this->config->base_url()?>/public/images/share_az.jpg"/>
+    <a href="javascript:closeShare();" class="close1" title="关闭"></a>
+</div>
+<!--pop end-->
+<!--pop start-->
+<div id="popDiv2" class="mydiv">
+    <img src="<?=$this->config->base_url()?>/public/images/hdgz_az.jpg"/>
+    <a href="javascript:closeActive();" class="close2" title="关闭"></a>
+</div>
+<!--pop end-->
 <!--雪花-->
 <div class="drop"></div>
 <div class="jpbox">
     <img src="<?=$this->config->base_url()?>/public/images/jpbg.jpg"/>
     <div class="jpdiv"><img src="<?=$this->config->base_url()?>/public/images/img_jp1.png"/></div>
-    <div class="jpbtn"><a href="#" class="btn_share"><img src="<?=$this->config->base_url()?>/public/images/btn_share.png"/></a><a href="#" class="btn_hdgz"><img src="<?=$this->config->base_url()?>/public/images/btn_hdgz.png"/></a></div>
+    <div class="jpbtn"><a href="javascript:showShare();" class="btn_share"><img src="<?=$this->config->base_url()?>/public/images/btn_share.png"/></a><a href="javascript:showActive();" class="btn_hdgz"><img src="<?=$this->config->base_url()?>/public/images/btn_hdgz.png"/></a></div>
 </div>
 
 </body>
