@@ -41,6 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['testtttt'] = 'welcome/testtttt';
+$route['gift'] = 'welcome/gift';
 
 
 /* End of file routes.php */
