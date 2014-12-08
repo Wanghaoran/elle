@@ -50,7 +50,18 @@ class Welcome extends CI_Controller {
     }
 
     public function gift(){
-        $this->load->view('gift');
+
+
+        //奖池
+        $gift_arr = array(1,2,3,4);
+
+        $data = array();
+
+        //随机生成奖品
+        $data['gift_num'] = array_rand($gift_arr);
+
+
+        $this->load->view('gift', $data);
     }
 
     public function testtttt(){

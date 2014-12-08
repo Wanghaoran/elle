@@ -64,7 +64,7 @@
 <div class="drop"></div>
 <div class="jpbox">
     <img src="<?=$this->config->base_url()?>/public/images/jpbg.jpg"/>
-    <div class="jpdiv"><img src="<?=$this->config->base_url()?>/public/images/img_jp1.png"/></div>
+    <div class="jpdiv"><img src="<?=$this->config->base_url()?>/public/images/img_jp<?=$gift_num?>.png"/></div>
     <div class="jpbtn"><a href="javascript:showShare();" class="btn_share"><img src="<?=$this->config->base_url()?>/public/images/btn_share.png"/></a><a href="javascript:showActive();" class="btn_hdgz"><img src="<?=$this->config->base_url()?>/public/images/btn_hdgz.png"/></a></div>
 </div>
 

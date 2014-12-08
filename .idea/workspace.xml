@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift.php" afterPath="$PROJECT_DIR$/application/views/gift.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2332" selection-end="2332" vertical-scroll-proportion="-19.384615" vertical-offset="414" max-vertical-offset="1190">
+            <state line="60" column="23" selection-start="2401" selection-end="2409" vertical-scroll-proportion="-16.115385" vertical-offset="601" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -37,7 +38,7 @@
       <file leaf-file-name="gift.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="32" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.32373112" vertical-offset="699" max-vertical-offset="1428">
+            <state line="54" column="6" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.4821192" vertical-offset="622" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -134,10 +135,10 @@
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/public/js/christmassnow.js" />
         <option value="$PROJECT_DIR$/application/views/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
       </list>
     </option>
@@ -659,14 +660,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2332" selection-end="2332" vertical-scroll-proportion="-19.384615" vertical-offset="414" max-vertical-offset="1190">
+        <state line="60" column="23" selection-start="2401" selection-end="2409" vertical-scroll-proportion="-16.115385" vertical-offset="601" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/gift.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="32" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.32373112" vertical-offset="699" max-vertical-offset="1428">
+        <state line="54" column="6" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.4821192" vertical-offset="622" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
