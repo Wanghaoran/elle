@@ -50,13 +50,13 @@
 <body>
 <!--pop start-->
 <div id="popDiv1" class="mydiv">
-    <img src="<?=$this->config->base_url()?>/public/images/share_az.jpg"/>
+    <img src="<?=$this->config->base_url()?>/public/images/share_ios.jpg"/>
     <a href="javascript:closeShare();" class="close1" title="关闭"></a>
 </div>
 <!--pop end-->
 <!--pop start-->
 <div id="popDiv2" class="mydiv">
-    <img src="<?=$this->config->base_url()?>/public/images/hdgz_az.jpg"/>
+    <img src="<?=$this->config->base_url()?>/public/images/hdgz_ios.jpg"/>
     <a href="javascript:closeActive();" class="close2" title="关闭"></a>
 </div>
 <!--pop end-->
