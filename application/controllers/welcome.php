@@ -32,9 +32,10 @@ class Welcome extends CI_Controller {
         //查询是否有此用户纪录，没有的话数据库新建
         $this->load->helper('cookie');
         $this -> load -> model('user_model');
-        if($this -> user_model -> queryhave($result_arr['openid'])){
+        if($query_result = $this -> user_model -> queryhave($result_arr['openid'])){
             //将OPENID写入session
             $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
+            var_dump($query_result);
         }else{
             //创建用户资料
             if(!$this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
