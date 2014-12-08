@@ -47,7 +47,7 @@
     //alert(canvas.width);
     //alert(canvas.height);
     var img = new Image();
-    img.src = "<?=$this->config->base_url()?>images/start.jpg";
+    img.src = "<?=$this->config->base_url()?>/public/images/start.jpg";
 
     img.onload = function(){
         ctx.drawImage(img,0,0,canvas.width,canvas.height)
