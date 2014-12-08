@@ -33,16 +33,15 @@ class Welcome extends CI_Controller {
         $this->load->helper('cookie');
         $this -> load -> model('user_model');
         if($query_result = $this -> user_model -> queryhave($result_arr['openid'])){
-            //将OPENID写入session
-            $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
-            var_dump($query_result);
+            //将ID写入session
+            $this->session->set_userdata('elle_wechat_id', $query_result[0]['id']);
         }else{
             //创建用户资料
-            if(!$this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
+            if(!$insert_id = $this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
                 die('<h1>Authorization failure! Insert User Error</h1>');
             }else{
-                //将OPENID写入session
-                $this->session->set_userdata('elle_wechat_openid', $result_arr['openid']);
+                //将ID写入session
+                $this->session->set_userdata('elle_wechat_id', $insert_id);
             }
         }
 
@@ -52,6 +51,7 @@ class Welcome extends CI_Controller {
 
     public function gift(){
 
+        var_dump($this->session->all_userdata());
 
         //奖池
         $gift_arr = array(1,2,3,4);

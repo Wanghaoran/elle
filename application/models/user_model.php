@@ -28,7 +28,9 @@ class User_model extends CI_Model {
             'addtime' => date('Y-m-d H:i:s'),
         );
 
-        return $this -> db -> insert('user', $data);
+        $this -> db -> insert('user', $data);
+
+        return $this->db->insert_id();
     }
 
 
