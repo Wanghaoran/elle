@@ -28,7 +28,15 @@ class Detail_model extends CI_Model {
         $this -> db -> where('date', date('Y-m-d'));
         $num = $this->db->count_all_results('detail');
 
+        //当天朋友帮点的次数
+        $this -> db -> where('tuid', $uid);
+        $this -> db -> where('date', date('Y-m-d'));
+        $num_friend = $this->db->count_all_results('friend');
+
         var_dump($num);
+        var_dump($num_friend);
+
+
 
         return true;
     }
