@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/user_model.php" afterPath="$PROJECT_DIR$/application/models/user_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.49595687" vertical-offset="329" max-vertical-offset="1394">
+            <state line="40" column="47" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.93509936" vertical-offset="42" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -667,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.49595687" vertical-offset="329" max-vertical-offset="1394">
+        <state line="40" column="47" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.93509936" vertical-offset="42" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>

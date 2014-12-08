@@ -17,7 +17,7 @@ class Welcome extends CI_Controller {
         $result_json = file_get_contents($token_url);
         $result_arr = json_decode($result_json, true);
         if(!empty($result_arr['errcode'])){
-            die('<h1>Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
+            die('<h1>Authorization failure1!' .  $result_arr['errmsg'] . '</h1>');
         }
 
         //获取信息
@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
         $result_json = file_get_contents($info_url);
         $result_arr = json_decode($result_json, true);
         if(!empty($result_arr['errcode'])){
-            die('<h1>Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
+            die('<h1>Authorization failure2!' .  $result_arr['errmsg'] . '</h1>');
         }
 
         //查询是否有此用户纪录，没有的话数据库新建
@@ -38,7 +38,7 @@ class Welcome extends CI_Controller {
         }else{
             //创建用户资料
             if(!$insert_id = $this -> user_model -> insertuser($result_arr['openid'], $result_arr['nickname'], $result_arr['sex'], $result_arr['language'], $result_arr['city'], $result_arr['province'], $result_arr['country'], $result_arr['headimgurl'])){
-                die('<h1>Authorization failure! Insert User Error</h1>');
+                die('<h1>Authorization failure3! Insert User Error</h1>');
             }else{
                 //将ID写入session
                 $this->session->set_userdata('elle_wechat_id', $insert_id);
