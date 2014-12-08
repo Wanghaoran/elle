@@ -28,7 +28,7 @@
 <body>
 <div class="box" id="bb">
     <div class="test" id="test"><img src="<?=$this->config->base_url()?>/public/images/img1.jpg"/>
-        <div class="jiangpin"><a href="jp.html"></a></div>
+        <div class="jiangpin"><a href="<?=$this->config->base_url()?>/gift"></a></div>
     </div>
     <canvas id="cas"></canvas>
 </div>

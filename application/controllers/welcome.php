@@ -49,6 +49,10 @@ class Welcome extends CI_Controller {
         $this->load->view('index');
     }
 
+    public function gift(){
+        $this->load->view('gift');
+    }
+
     public function testtttt(){
         //加载首页
         $this->load->view('index');
