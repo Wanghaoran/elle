@@ -71,6 +71,12 @@ class Welcome extends CI_Controller {
         $this->load->view('gift', $data);
     }
 
+    //朋友点击
+    public function friend(){
+        $uid = $this->input->get('uid');
+        var_dump($uid);
+    }
+
     public function testtttt(){
         //加载首页
         $this->load->view('index');
