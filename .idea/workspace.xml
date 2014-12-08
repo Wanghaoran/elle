@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift.php" afterPath="$PROJECT_DIR$/application/views/gift.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index.php" afterPath="$PROJECT_DIR$/application/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,19 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="26" selection-start="2607" selection-end="2607" vertical-scroll-proportion="-11.115385" vertical-offset="527" max-vertical-offset="2346">
+            <state line="22" column="55" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.5665295" vertical-offset="12" max-vertical-offset="2346">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="christmassnow.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="christmassnow.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/christmassnow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="43" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.48697916" vertical-offset="476" max-vertical-offset="2635">
+            <state line="53" column="43" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
               <folding>
                 <marker date="1418009216000" expanded="false" signature="2601:2608" placeholder="..." />
                 <marker date="1418009216000" expanded="false" signature="2827:2834" placeholder="..." />
@@ -139,8 +137,8 @@
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
-        <option value="$PROJECT_DIR$/application/views/index.php" />
         <option value="$PROJECT_DIR$/public/js/christmassnow.js" />
+        <option value="$PROJECT_DIR$/application/views/index.php" />
       </list>
     </option>
   </component>
@@ -652,16 +650,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="26" selection-start="2607" selection-end="2607" vertical-scroll-proportion="-11.115385" vertical-offset="527" max-vertical-offset="2346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/christmassnow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="43" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.48697916" vertical-offset="476" max-vertical-offset="2635">
+        <state line="53" column="43" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
           <folding>
             <marker date="1418009216000" expanded="false" signature="2601:2608" placeholder="..." />
             <marker date="1418009216000" expanded="false" signature="2827:2834" placeholder="..." />
@@ -670,6 +661,13 @@
             <marker date="1418009216000" expanded="false" signature="3505:3512" placeholder="..." />
             <marker date="1418009216000" expanded="false" signature="3717:3724" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="55" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.5665295" vertical-offset="12" max-vertical-offset="2346">
+          <folding />
         </state>
       </provider>
     </entry>
