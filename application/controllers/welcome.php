@@ -52,11 +52,10 @@ class Welcome extends CI_Controller {
 
         $this -> load -> model('detail_model');
 
-
-
         //验证今天是否还能刮
+        $this -> detail_model -> checknum($this->session->userdata('elle_wechat_id'));
 
-        //增加今天的刮奖次数
+            //增加今天的刮奖次数
         $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
 
         //奖池

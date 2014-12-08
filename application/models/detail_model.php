@@ -20,6 +20,18 @@ class Detail_model extends CI_Model {
         return $this->db->insert_id();
     }
 
+    //验证当日是否还能刮
+    public function checknum($uid){
+
+        //当天已经刮了的次数
+        $this -> db -> where('uid', $uid);
+        $num = $this->db->count_all_results('my_table');
+
+        var_dump($num);
+
+        return true;
+    }
+
 
     /*
 

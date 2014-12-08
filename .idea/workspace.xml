@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/friend_model.php" afterPath="$PROJECT_DIR$/application/models/friend_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/detail_model.php" afterPath="$PROJECT_DIR$/application/models/detail_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="26" selection-start="4248" selection-end="4248" vertical-scroll-proportion="-27.73077" vertical-offset="1132" max-vertical-offset="2499">
+            <state line="69" column="41" selection-start="2732" selection-end="2732" vertical-scroll-proportion="0.49620062" vertical-offset="520" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friend_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="friend_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.33586627" vertical-offset="0" max-vertical-offset="2006">
+            <state line="26" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="2006">
               <folding />
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="detail_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="6" selection-start="483" selection-end="483" vertical-scroll-proportion="-12.769231" vertical-offset="59" max-vertical-offset="1683">
+            <state line="23" column="28" selection-start="512" selection-end="520" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -136,11 +137,11 @@
         <option value="$PROJECT_DIR$/public/js/christmassnow.js" />
         <option value="$PROJECT_DIR$/application/views/index.php" />
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
-        <option value="$PROJECT_DIR$/application/models/detail_model.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/friend_model.php" />
+        <option value="$PROJECT_DIR$/application/models/detail_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
   </component>
@@ -404,7 +405,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09372518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09372518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -650,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="483" selection-end="483" vertical-scroll-proportion="-12.769231" vertical-offset="59" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="25" selection-start="861" selection-end="881" vertical-scroll-proportion="0.32245827" vertical-offset="34" max-vertical-offset="1700">
@@ -678,16 +672,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="26" selection-start="4248" selection-end="4248" vertical-scroll-proportion="-27.73077" vertical-offset="1132" max-vertical-offset="2499">
+        <state line="26" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
+    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.33586627" vertical-offset="0" max-vertical-offset="2006">
+        <state line="23" column="28" selection-start="512" selection-end="520" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="41" selection-start="2732" selection-end="2732" vertical-scroll-proportion="0.49620062" vertical-offset="520" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>
