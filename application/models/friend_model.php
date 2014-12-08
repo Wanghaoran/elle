@@ -20,7 +20,7 @@ class Friend_model extends CI_Model {
         $data = array(
             'fuid' => $fuid,
             'tuid' => $tuid,
-            'datre' => $date,
+            'date' => $date,
         );
 
         $this -> db -> insert('friend', $data);
@@ -33,7 +33,7 @@ class Friend_model extends CI_Model {
         $where = array(
             'fuid' => $fuid,
             'tuid' => $tuid,
-            'datre' => $date,
+            'date' => $date,
         );
         $query = $this -> db -> get_where('friend', $where, 1);
         return $query -> result_array();
