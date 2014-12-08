@@ -57,10 +57,11 @@ class Welcome extends CI_Controller {
         //验证今天是否还能刮
 
         //增加今天的刮奖次数
-        if(!$this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'))){
-            die('<h1>Add User Detail failure</h1>');
-        }
+//        if(!$this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'))){
+//            die('<h1>Add User Detail failure</h1>');
+//        }
 
+        $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
 
         //奖池
         $gift_arr = array(1,2,3,4);

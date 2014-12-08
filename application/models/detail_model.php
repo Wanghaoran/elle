@@ -21,6 +21,7 @@ class Detail_model extends CI_Model {
     }
 
 
+    /*
 
 
     //查询用户是否存在
@@ -33,7 +34,7 @@ class Detail_model extends CI_Model {
 
 
 
-    /*
+
     public function getallhotel()
     {
 
