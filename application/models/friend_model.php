@@ -17,6 +17,11 @@ class Friend_model extends CI_Model {
             return false;
         }
 
+        //本人不添加
+        if($fuid == $tuid){
+            return false;
+        }
+
         $data = array(
             'fuid' => $fuid,
             'tuid' => $tuid,
