@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift.php" afterPath="$PROJECT_DIR$/application/views/gift.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index.php" afterPath="$PROJECT_DIR$/application/views/index.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="2278">
+            <state line="39" column="24" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.5030349" vertical-offset="0" max-vertical-offset="2278">
               <folding />
             </state>
           </provider>
@@ -53,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gift.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/gift.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.4789272" vertical-offset="344" max-vertical-offset="1649">
+            <state line="57" column="0" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -140,8 +139,8 @@
         <option value="$PROJECT_DIR$/application/models/detail_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/friend_model.php" />
-        <option value="$PROJECT_DIR$/application/views/index.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
+        <option value="$PROJECT_DIR$/application/views/index.php" />
       </list>
     </option>
   </component>
@@ -750,16 +749,16 @@
         <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="0.2712766" vertical-offset="0" max-vertical-offset="2091" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
+    <entry file="file://$PROJECT_DIR$/application/views/gift.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="2278">
+        <state line="57" column="0" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/gift.php">
+    <entry file="file://$PROJECT_DIR$/application/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.4789272" vertical-offset="344" max-vertical-offset="1649">
+        <state line="39" column="24" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.5030349" vertical-offset="0" max-vertical-offset="2278">
           <folding />
         </state>
       </provider>
