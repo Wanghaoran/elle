@@ -18,8 +18,8 @@
                 snowflaketype: 23, // 1 to 25 types of flakes are available change the number from 1 to 25. each one contain different images.
                 snowflakesize: 2, //snowflakesize is 1 then it get the size of the image as random , if the snowflakesize is 2 means size of the image as custom
                 snowflakedirection: 1, // 1 means default no wind (top to bottom), 2 means random, 3 means left to right and 4 means  right to left
-                snownumberofflakes: 6, // number of flakes is user option
-                snowflakespeed: 20, // falling speed of flake 10 sec is default
+                snownumberofflakes: 4, // number of flakes is user option
+                snowflakespeed: 15, // falling speed of flake 10 sec is default
                 flakeheightandwidth: 30 // if you are mention that option flakesize is 2 then this flakeheightandwidth should work values are in pixels 16*16.
             });
         });
