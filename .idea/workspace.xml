@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index.php" afterPath="$PROJECT_DIR$/application/views/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/img_jp0.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/img_jp1.png" afterPath="$PROJECT_DIR$/public/images/img_jp1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/img_jp2.png" afterPath="$PROJECT_DIR$/public/images/img_jp2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/img_jp3.png" afterPath="$PROJECT_DIR$/public/images/img_jp3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/img_jp4.png" afterPath="$PROJECT_DIR$/public/images/img_jp4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="78" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.54172987" vertical-offset="0" max-vertical-offset="2278">
+            <state line="42" column="78" selection-start="2369" selection-end="2369" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="2278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="19" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.49544764" vertical-offset="316" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
@@ -86,13 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snowflake1.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/snowflake1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="snowflake3.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/snowflake3.png">
           <provider selected="true" editor-type-id="images">
@@ -137,10 +144,10 @@
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/models/detail_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/friend_model.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
         <option value="$PROJECT_DIR$/application/views/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
   </component>
@@ -725,11 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2774" selection-end="2774" vertical-scroll-proportion="-25.76923" vertical-offset="537" max-vertical-offset="2550" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="25" selection-start="861" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1700">
@@ -758,7 +760,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="78" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.54172987" vertical-offset="0" max-vertical-offset="2278">
+        <state line="42" column="78" selection-start="2369" selection-end="2369" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.49544764" vertical-offset="316" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>

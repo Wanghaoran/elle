@@ -58,7 +58,7 @@ class Welcome extends CI_Controller {
         //验证今天是否还能刮
         if($this -> detail_model -> checknum($this->session->userdata('elle_wechat_id'))){
             //奖池
-            $gift_arr = array(1,2,3,4);
+            $gift_arr = array(1,2,3,4,5,6);
             //随机生成奖品
             $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
