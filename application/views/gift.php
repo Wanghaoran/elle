@@ -13,16 +13,6 @@
     <script type="text/javascript" src="<?=$this->config->base_url()?>/public/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="<?=$this->config->base_url()?>/public/js/christmassnow.js"></script>
     <script>
-        $(document).ready(function() {
-            $('body').christmassnow({
-                snowflaketype: 23, // 1 to 25 types of flakes are available change the number from 1 to 25. each one contain different images.
-                snowflakesize: 2, //snowflakesize is 1 then it get the size of the image as random , if the snowflakesize is 2 means size of the image as custom
-                snowflakedirection: 1, // 1 means default no wind (top to bottom), 2 means random, 3 means left to right and 4 means  right to left
-                snownumberofflakes: 10, // number of flakes is user option
-                snowflakespeed: 10, // falling speed of flake 10 sec is default
-                flakeheightandwidth: 30 // if you are mention that option flakesize is 2 then this flakeheightandwidth should work values are in pixels 16*16.
-            });
-        });
 
         //分享层
         function showShare(){
@@ -49,11 +39,11 @@
 
     <script type="text/javascript">
         var shareData = {
-            "img_url": "",
+            "img_url": "http://elle.cnhtk.cn/public/images/icon.jpg",
             "img_width": "200",
             "img_height": "200",
             "link": "http://elle.cnhtk.cn/friend?uid=<?=$this->session->userdata('elle_wechat_id')?>",
-            "desc":  "点亮水晶球，赢圣诞好礼",
+            "desc":  "LLE来送圣诞礼物啦，快来点击领取哦~",
             "title": "点亮水晶球，赢圣诞好礼"
         };
         document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
