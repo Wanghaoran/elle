@@ -43,7 +43,7 @@
             "img_width": "200",
             "img_height": "200",
             "link": "http://elle.cnhtk.cn/friend?uid=<?=$this->session->userdata('elle_wechat_id')?>",
-            "desc":  "LLE来送圣诞礼物啦，快来点击领取哦~",
+            "desc":  "ELLE来送圣诞礼物啦，快来点击领取哦~",
             "title": "点亮水晶球，赢圣诞好礼"
         };
         document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
