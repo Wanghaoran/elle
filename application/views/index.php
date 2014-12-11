@@ -24,6 +24,36 @@
             });
         });
     </script>
+
+    <script type="text/javascript">
+        var shareData = {
+            "img_url": "http://elle.cnhtk.cn/public/images/icon.jpg",
+            "img_width": "200",
+            "img_height": "200",
+            "link": "http://elle.cnhtk.cn/friend?uid=<?=$this->session->userdata('elle_wechat_id')?>",
+            "desc":  "ELLE来送圣诞礼物啦，快来点击领取哦~",
+            "title": "点亮水晶球，赢圣诞好礼"
+        };
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('hideToolbar');
+
+            WeixinJSBridge.on('menu:share:timeline', function () {
+                shareData.title = "点亮水晶球，赢圣诞好礼";
+                WeixinJSBridge.invoke('shareTimeline',shareData, function (res) {
+                    _report('send_msg', res.err_msg);
+                });
+            });
+
+            //发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function () {
+                shareData.title = "点亮水晶球，赢圣诞好礼";
+                WeixinJSBridge.invoke('sendAppMessage', shareData, function (res) {
+                    _report('send_msg', res.err_msg);
+                })
+            });
+        }, false);
+    </script>
+
 </head>
 <body>
 
