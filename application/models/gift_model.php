@@ -15,5 +15,18 @@ class Gift_model extends CI_Model {
         return $now;
     }
 
+    //记录中奖信息
+    public function writegift($gift, $uid){
+        $data = array(
+            'uid' => $uid,
+            'gift' => $gift,
+            'time' => date('Y-m-d H:i:s'),
+        );
+
+        $this -> db -> insert('gift', $data);
+
+        return $this->db->insert_id();
+    }
+
 
 }

@@ -101,6 +101,12 @@ class Welcome extends CI_Controller {
             //随机生成奖品
             $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
+
+            //如果中奖，则记录中奖信息
+            if($data['gift_num'] != 6){
+                $this -> gift_model -> writegift($data['gift_num'], $this->session->userdata('elle_wechat_id'));
+            }
+
             //增加今天的刮奖次数
             $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
 
