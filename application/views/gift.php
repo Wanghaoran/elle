@@ -87,6 +87,9 @@
     <div class="jpbtn"><a href="javascript:showShare();" class="btn_share"><img src="<?=$this->config->base_url()?>/public/images/btn_share.png"/></a><a href="javascript:showActive();" class="btn_hdgz"><img src="<?=$this->config->base_url()?>/public/images/btn_hdgz.png"/></a></div>
 </div>
 
+<div style="display: none;">
+    <script src="http://s95.cnzz.com/stat.php?id=1253773780&web_id=1253773780" language="JavaScript"></script>
+</div>
 </body>
 
 </html>
