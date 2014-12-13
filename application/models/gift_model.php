@@ -28,5 +28,11 @@ class Gift_model extends CI_Model {
         return $this->db->insert_id();
     }
 
+    //查询特定用户特定奖品是否中出
+    public function getusergiftnum($uid, $gift){
+        $query = $this -> db -> get_where('gift', array('uid' => $uid, 'gift' => $gift), 1);
+        return $query -> result_array();
+    }
+
 
 }

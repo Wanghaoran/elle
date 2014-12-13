@@ -95,11 +95,18 @@ class Welcome extends CI_Controller {
             var_dump($gift_4);
             var_dump($gift_5);
 
+            //查询是否中出过优惠券，中出过的不再中出
+            if($this -> gift_model -> getusergiftnum($this->session->userdata('elle_wechat_id'), 5)){
+                $data['gift_num'] = 3;
+            }else{
+                $data['gift_num'] = 5;
+            }
+
 
             //奖池
-            $gift_arr = array(1,2,3,4,5,6);
-            //随机生成奖品
-            $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
+//            $gift_arr = array(1,2,3,4,5,6);
+//            随机生成奖品
+//            $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
 
             //如果中奖，则记录中奖信息
