@@ -70,6 +70,32 @@ class Welcome extends CI_Controller {
 
         //验证今天是否还能刮
         if($this -> detail_model -> checknum($this->session->userdata('elle_wechat_id'))){
+
+            /*
+             * 奖品：1.双色票夹 5个
+             *      2.时尚旅行袋 2个
+             *      3.非凡马挂件 40个
+             *      4.斜挎包 8个
+             *      5.优惠券500张
+             */
+
+            $this -> load -> model('gift_model');
+
+
+            //每个奖品剩余数量
+            $gift_1 = 5 - $this -> gift_model -> getgiftnum(1);
+            $gift_2 = 2 - $this -> gift_model -> getgiftnum(2);
+            $gift_3 = 40 - $this -> gift_model -> getgiftnum(3);
+            $gift_4 = 8 - $this -> gift_model -> getgiftnum(4);
+            $gift_5 = 500 - $this -> gift_model -> getgiftnum(5);
+
+            var_dump($gift_1);
+            var_dump($gift_2);
+            var_dump($gift_3);
+            var_dump($gift_4);
+            var_dump($gift_5);
+
+
             //奖池
             $gift_arr = array(1,2,3,4,5,6);
             //随机生成奖品
