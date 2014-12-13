@@ -89,13 +89,6 @@ class Welcome extends CI_Controller {
             $gift_4 = 8 - $this -> gift_model -> getgiftnum(4);
             $gift_5 = 500 - $this -> gift_model -> getgiftnum(5);
 
-            var_dump($gift_1);
-            var_dump($gift_2);
-            var_dump($gift_3);
-            var_dump($gift_4);
-            var_dump($gift_5);
-
-
             //生成奖池
             $gift_arr = array();
 
