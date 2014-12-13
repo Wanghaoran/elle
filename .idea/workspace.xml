@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/detail_model.php" afterPath="$PROJECT_DIR$/application/models/detail_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
@@ -36,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="13" selection-start="4449" selection-end="4449" vertical-scroll-proportion="0.55462825" vertical-offset="1377" max-vertical-offset="3808">
+            <state line="143" column="9" selection-start="4990" selection-end="4990" vertical-scroll-proportion="-40.53846" vertical-offset="1377" max-vertical-offset="3808">
               <folding />
             </state>
           </provider>
@@ -54,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="detail_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="2023">
+            <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.6836115" vertical-offset="0" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -84,7 +85,7 @@
       <file leaf-file-name="friend_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="-3.2692308" vertical-offset="272" max-vertical-offset="2091">
+            <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -147,11 +148,11 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/models/friend_model.php" />
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
-        <option value="$PROJECT_DIR$/application/models/detail_model.php" />
         <option value="$PROJECT_DIR$/application/views/index.php" />
         <option value="$PROJECT_DIR$/application/views/gift.php" />
         <option value="$PROJECT_DIR$/application/models/gift_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/models/detail_model.php" />
       </list>
     </option>
   </component>
@@ -739,20 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="-3.2692308" vertical-offset="272" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="158" column="0" selection-start="6403" selection-end="6549" vertical-scroll-proportion="-46.76923" vertical-offset="1470" max-vertical-offset="2856">
@@ -787,7 +774,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="13" selection-start="4449" selection-end="4449" vertical-scroll-proportion="0.55462825" vertical-offset="1377" max-vertical-offset="3808">
+        <state line="143" column="9" selection-start="4990" selection-end="4990" vertical-scroll-proportion="-40.53846" vertical-offset="1377" max-vertical-offset="3808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/friend_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.6836115" vertical-offset="0" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>

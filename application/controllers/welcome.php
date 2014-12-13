@@ -136,7 +136,7 @@ class Welcome extends CI_Controller {
             }
 
             //增加今天的刮奖次数
-            $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'));
+            $this -> detail_model -> insertdata($this->session->userdata('elle_wechat_id'), $data['gift_num']);
 
         }else{
             $data['gift_num'] = 0;

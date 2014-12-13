@@ -9,10 +9,11 @@ class Detail_model extends CI_Model {
     }
 
     //插入刮奖数据
-    public function insertdata($uid){
+    public function insertdata($uid, $gift){
         $data = array(
             'uid' => $uid,
             'date' => date('Y-m-d'),
+            'gift' => $gift,
         );
 
         $this -> db -> insert('detail', $data);
