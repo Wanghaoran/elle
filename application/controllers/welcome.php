@@ -98,6 +98,7 @@ class Welcome extends CI_Controller {
 
             //生成奖池
             $gift_arr = array();
+
             //添加奖品1
             for($i = 0; $i < $gift_1; $i ++){
                 $gift_arr[] = 1;
@@ -123,17 +124,12 @@ class Welcome extends CI_Controller {
                 }
             }
 
+            //填充数组至2W
+            $gift_arr = array_pad($gift_arr, 20000, 6);
+
             var_dump($gift_arr);
 
-
-            $data['gift_num'] = 1;
-
-
-
-            //奖池
-//            $gift_arr = array(1,2,3,4,5,6);
-//            随机生成奖品
-//            $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
+            $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
 
             //如果中奖，则记录中奖信息
