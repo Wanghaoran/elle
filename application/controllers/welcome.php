@@ -52,6 +52,20 @@ class Welcome extends CI_Controller {
 
         $data = array();
 
+        $this -> load -> model('user_model');
+        $this->load->helper('url');
+
+        //elle_wechat_id通不过验证则返回首页
+        if(!$this->session->userdata('elle_wechat_id') || !$this -> user_model -> queryhave($this->session->userdata('elle_wechat_id'))){
+            redirect('http://elle.cnhtk.cn');
+        }
+
+        //非移动设备跳转至首页
+        $this->load->library('user_agent');
+        if(!$this->agent->is_mobile()){
+            redirect('http://elle.cnhtk.cn');
+        }
+
 
         $this -> load -> model('detail_model');
 
@@ -78,6 +92,7 @@ class Welcome extends CI_Controller {
     public function friend(){
         //获取UID
         $uid = $this->input->get('uid');
+
         //授权跳转
         $this->load->helper('url');
         if(empty($_GET['code'])){
