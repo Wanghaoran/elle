@@ -56,7 +56,7 @@ class Welcome extends CI_Controller {
         $this->load->helper('url');
 
         //elle_wechat_id通不过验证则返回首页
-        if(!$this->session->userdata('elle_wechat_id') || !$this -> user_model -> queryhave($this->session->userdata('elle_wechat_id'))){
+        if(!$this->session->userdata('elle_wechat_id')){
             redirect('http://elle.cnhtk.cn');
         }
 
