@@ -8,9 +8,15 @@ class User_model extends CI_Model {
         $this -> load -> database();
     }
 
-    //查询用户是否存在
+    //查询用户是否存在 openid
     public function queryhave($openID){
         $query = $this -> db -> get_where('user', array('openid' => $openID), 1);
+        return $query -> result_array();
+    }
+
+    //查询用户是否存在 id
+    public function queryhave2($id){
+        $query = $this -> db -> get_where('user', array('id' => $id), 1);
         return $query -> result_array();
     }
 
