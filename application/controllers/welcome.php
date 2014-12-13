@@ -61,11 +61,13 @@ class Welcome extends CI_Controller {
         }
 
         //非移动设备跳转至首页
+        /*
         $this->load->library('user_agent');
         if(!$this->agent->is_mobile()){
             redirect('http://elle.cnhtk.cn');
         }
 
+        */
 
         $this -> load -> model('detail_model');
 
