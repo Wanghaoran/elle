@@ -79,8 +79,8 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
                 <?php foreach($all_user as $key => $value): ?>
+                <tr>
                     <td><?=$value['id']?></td>
                     <td><?=$value['nickname']?></td>
                     <?php if($value['sex'] == 1): ?>
@@ -108,8 +108,8 @@
                         <td>未知</td>
                     <?php endif; ?>
                     <td><?=$value['time']?></td>
+                </tr>
                 <?php endforeach; ?>
-            </tr>
 
             </tbody>
         </table>
