@@ -43,6 +43,7 @@ $route['404_override'] = '';
 $route['testtttt'] = 'welcome/testtttt';
 $route['gift'] = 'welcome/gift';
 $route['friend'] = 'welcome/friend';
+$route['gift_total'] = 'welcome/gift_total';
 
 
 /* End of file routes.php */

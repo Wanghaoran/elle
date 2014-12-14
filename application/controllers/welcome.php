@@ -200,9 +200,28 @@ class Welcome extends CI_Controller {
 
     }
 
-    public function testtttt(){
+    //数据统计
+    public function gift_total(){
+
+        $data = array();
+
+        $this -> load -> model('gift_model');
+
+        //每个奖品剩余数量
+        $gift_1 = 5 - $this -> gift_model -> getgiftnum(1);
+        $gift_2 = 2 - $this -> gift_model -> getgiftnum(2);
+        $gift_3 = 40 - $this -> gift_model -> getgiftnum(3);
+        $gift_4 = 8 - $this -> gift_model -> getgiftnum(4);
+        $gift_5 = 500 - $this -> gift_model -> getgiftnum(5);
+
+        $data['gift_1'] = $gift_1;
+        $data['gift_2'] = $gift_2;
+        $data['gift_3'] = $gift_3;
+        $data['gift_4'] = $gift_4;
+        $data['gift_5'] = $gift_5;
+
         //加载首页
-        $this->load->view('index');
+        $this->load->view('gift_total', $data);
     }
 
 
