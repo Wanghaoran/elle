@@ -230,8 +230,8 @@ class Welcome extends CI_Controller {
         $data['gift_5'] = $gift_5;
 
         $all_user = $this -> gift_model -> getallgiftuser();
-        var_dump($all_user);
 
+        $data['all_user'] = $all_user;
 
         //加载首页
         $this->load->view('gift_total', $data);

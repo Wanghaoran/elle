@@ -80,10 +80,35 @@
             </thead>
             <tbody>
             <tr>
-                <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <?php foreach($all_user as $key => $value): ?>
+                    <td><?=$value['id']?></td>
+                    <td><?=$value['nickname']?></td>
+                    <?php if($value['sex'] == 1): ?>
+                        <td>男</td>
+                    <?php elseif($value['sex'] == 2): ?>
+                        <td>女</td>
+                    <?php else: ?>
+                        <td>未知</td>
+                    <?php endif; ?>
+                    <td><?=$value['language']?></td>
+                    <td><?=$value['city']?></td>
+                    <td><?=$value['country']?></td>
+                    <td><img src="<?=$value['headimgurl']?>" /></td>
+                    <?php if($value['gift'] == 1): ?>
+                        <td>双色票夹</td>
+                    <?php elseif($value['gift'] == 2): ?>
+                        <td>时尚旅行袋</td>
+                    <?php elseif($value['gift'] == 3): ?>
+                        <td>非凡马挂件</td>
+                    <?php elseif($value['gift'] == 4): ?>
+                        <td>斜挎包</td>
+                    <?php elseif($value['gift'] == 5): ?>
+                        <td>天猫优惠券</td>
+                    <?php else: ?>
+                        <td>未知</td>
+                    <?php endif; ?>
+                    <td><?=$value['time']?></td>
+                <?php endforeach; ?>
             </tr>
 
             </tbody>
