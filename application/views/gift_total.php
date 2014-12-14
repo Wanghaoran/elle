@@ -67,13 +67,13 @@
             <thead>
             <tr>
                 <th>编号</th>
+                <th>头像</th>
                 <th>微信昵称</th>
                 <th>性别</th>
                 <th>用户语言</th>
                 <th>城市</th>
                 <th>省份</th>
                 <th>国家</th>
-                <th>头像</th>
                 <th>奖品类型</th>
                 <th>中奖时间</th>
             </tr>
@@ -82,6 +82,7 @@
                 <?php foreach($all_user as $key => $value): ?>
                 <tr>
                     <td><?=$value['id']?></td>
+                    <td><img src="<?=$value['nickname']?>" width="30"></td>
                     <td><?=$value['nickname']?></td>
                     <?php if($value['sex'] == 1): ?>
                         <td>男</td>
