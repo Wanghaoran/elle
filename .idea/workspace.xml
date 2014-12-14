@@ -46,7 +46,7 @@
       <file leaf-file-name="gift_total.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="20" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.5936255" vertical-offset="947" max-vertical-offset="2295">
+            <state line="76" column="29" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.45816734" vertical-offset="947" max-vertical-offset="2295">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,7 +75,7 @@
       <file leaf-file-name="gift_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="34" selection-start="939" selection-end="953" vertical-scroll-proportion="-17.192308" vertical-offset="182" max-vertical-offset="935">
+            <state line="38" column="279" selection-start="1226" selection-end="1236" vertical-scroll-proportion="-17.846153" vertical-offset="182" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -446,7 +446,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -794,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="34" selection-start="939" selection-end="953" vertical-scroll-proportion="-17.192308" vertical-offset="182" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="234" column="0" selection-start="8223" selection-end="8223" vertical-scroll-proportion="-19.307692" vertical-offset="3476" max-vertical-offset="4233">
@@ -808,9 +801,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="279" selection-start="1226" selection-end="1236" vertical-scroll-proportion="-17.846153" vertical-offset="182" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="20" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.5936255" vertical-offset="947" max-vertical-offset="2295">
+        <state line="76" column="29" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.45816734" vertical-offset="947" max-vertical-offset="2295">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

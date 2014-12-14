@@ -83,7 +83,7 @@
                 <tr>
                     <td><?=$value['id']?></td>
                     <td><img src="<?=$value['nickname']?>" width="30"></td>
-                    <td><?=$value['nickname']?></td>
+                    <td><?=$value['headimgurl']?></td>
                     <?php if($value['sex'] == 1): ?>
                         <td>男</td>
                     <?php elseif($value['sex'] == 2): ?>
