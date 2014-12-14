@@ -46,7 +46,7 @@
       <file leaf-file-name="gift_total.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="42" selection-start="832" selection-end="832" vertical-scroll-proportion="0.3001328" vertical-offset="63" max-vertical-offset="2380">
+            <state line="25" column="6" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.37432432" vertical-offset="148" max-vertical-offset="2380">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -810,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="832" selection-end="832" vertical-scroll-proportion="0.3001328" vertical-offset="63" max-vertical-offset="2380">
+        <state line="25" column="6" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.37432432" vertical-offset="148" max-vertical-offset="2380">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
