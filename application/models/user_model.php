@@ -39,6 +39,12 @@ class User_model extends CI_Model {
         return $this->db->insert_id();
     }
 
+    //获取总人数
+    public function gettotal(){
+        $now = $this->db->count_all_results('user');
+        return $now;
+    }
+
 
 
     /*

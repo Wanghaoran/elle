@@ -206,6 +206,7 @@ class Welcome extends CI_Controller {
         $data = array();
 
         $this -> load -> model('gift_model');
+        $this -> load -> model('user_model');
 
         //每个奖品剩余数量
         $gift_1 = 5 - $this -> gift_model -> getgiftnum(1);
@@ -232,6 +233,11 @@ class Welcome extends CI_Controller {
         $all_user = $this -> gift_model -> getallgiftuser();
 
         $data['all_user'] = $all_user;
+
+        //总人数
+        $num = $this -> user_model ->gettotal();
+
+        $data['num'] = $num;
 
         //加载首页
         $this->load->view('gift_total', $data);

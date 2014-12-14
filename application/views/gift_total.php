@@ -28,6 +28,8 @@
 
 <div class="container">
 
+    <div class="well">参与活动总人数：<?=$num?> 人</div>
+
     <div class="panel panel-info" style="margin-top: 20px;">
         <!-- Default panel contents -->
         <div class="panel-heading">奖品剩余数量及中出统计</div>
