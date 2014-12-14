@@ -214,11 +214,24 @@ class Welcome extends CI_Controller {
         $gift_4 = 8 - $this -> gift_model -> getgiftnum(4);
         $gift_5 = 500 - $this -> gift_model -> getgiftnum(5);
 
+
+        /*
+        $gift_1 = 1;
+        $gift_2 = 1;
+        $gift_3 = 0;
+        $gift_4 = 1;
+        $gift_5 = 1;
+        */
+
         $data['gift_1'] = $gift_1;
         $data['gift_2'] = $gift_2;
         $data['gift_3'] = $gift_3;
         $data['gift_4'] = $gift_4;
         $data['gift_5'] = $gift_5;
+
+        $all_user = $this -> gift_model -> getallgiftuser();
+        var_dump($all_user);
+
 
         //加载首页
         $this->load->view('gift_total', $data);

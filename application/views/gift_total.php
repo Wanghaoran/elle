@@ -28,17 +28,37 @@
 
 <div class="container">
 
-    <div class="panel panel-info" style="margin-top: 50px;">
+    <div class="panel panel-info" style="margin-top: 20px;">
         <!-- Default panel contents -->
         <div class="panel-heading">奖品剩余数量及中出统计</div>
         <div class="panel-body">
 
             <ul class="list-inline">
-                <li>双色票夹：<span class="label label-success"><?=$gift_1?></span> 个</li>
-                <li>时尚旅行袋：<span class="label label-success"><?=$gift_2?></span> 个</li>
-                <li>非凡马挂件：<span class="label label-success"><?=$gift_3?></span> 个</li>
-                <li>斜挎包：<span class="label label-success"><?=$gift_4?></span> 个</li>
-                <li>天猫优惠券：<span class="label label-success"><?=$gift_5?></span> 个</li>
+                <?php if($gift_1 == 0): ?>
+                    <li>双色票夹：<span class="label label-danger"><?=$gift_1?></span> 个</li>
+                <?php else: ?>
+                    <li>双色票夹：<span class="label label-success"><?=$gift_1?></span> 个</li>
+                <?php endif; ?>
+                <?php if($gift_2 == 0): ?>
+                    <li>时尚旅行袋：<span class="label label-danger"><?=$gift_2?></span> 个</li>
+                <?php else: ?>
+                    <li>时尚旅行袋：<span class="label label-success"><?=$gift_2?></span> 个</li>
+                <?php endif; ?>
+                <?php if($gift_3 == 0): ?>
+                    <li>非凡马挂件：<span class="label label-danger"><?=$gift_3?></span> 个</li>
+                <?php else: ?>
+                    <li>非凡马挂件：<span class="label label-success"><?=$gift_3?></span> 个</li>
+                <?php endif; ?>
+                <?php if($gift_4 == 0): ?>
+                    <li>斜挎包：<span class="label label-danger"><?=$gift_4?></span> 个</li>
+                <?php else: ?>
+                    <li>斜挎包：<span class="label label-success"><?=$gift_4?></span> 个</li>
+                <?php endif; ?>
+                <?php if($gift_5 == 0): ?>
+                    <li>天猫优惠券：<span class="label label-danger"><?=$gift_5?></span> 个</li>
+                <?php else: ?>
+                    <li>天猫优惠券：<span class="label label-success"><?=$gift_5?></span> 个</li>
+                <?php endif; ?>
             </ul>
         </div>
 
@@ -46,10 +66,16 @@
         <table class="table table-hover table-striped">
             <thead>
             <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Username</th>
+                <th>编号</th>
+                <th>微信昵称</th>
+                <th>性别</th>
+                <th>用户语言</th>
+                <th>城市</th>
+                <th>省份</th>
+                <th>国家</th>
+                <th>头像</th>
+                <th>奖品类型</th>
+                <th>中奖时间</th>
             </tr>
             </thead>
             <tbody>
@@ -59,18 +85,7 @@
                 <td>Otto</td>
                 <td>@mdo</td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
+
             </tbody>
         </table>
     </div>
