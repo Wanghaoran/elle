@@ -30,7 +30,7 @@
 
     <div class="well">
         <p class="lead">参与活动总人数：<strong class="text-success"><?=$num?></strong> 人</p>
-        <p>更多统计信息请访问：<a target="_blank" href="http://new.cnzz.com/v1/login.php?siteid=1253773780">CNZZ统计报表</a> 查看密码：elle_kelly</p>
+        <p>更多统计信息请访问：<a target="_blank" href="http://new.cnzz.com/v1/login.php?siteid=1253773780">CNZZ统计报表</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看密码：elle_kelly</p>
     </div>
 
     <div class="panel panel-info" style="margin-top: 20px;">
