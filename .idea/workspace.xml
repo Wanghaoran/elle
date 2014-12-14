@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift_total.php" afterPath="$PROJECT_DIR$/application/views/gift_total.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="0" selection-start="8223" selection-end="8223" vertical-scroll-proportion="0.81621623" vertical-offset="3374" max-vertical-offset="4233">
+            <state line="234" column="0" selection-start="8223" selection-end="8223" vertical-scroll-proportion="-19.307692" vertical-offset="3476" max-vertical-offset="4233">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift_total.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gift_total.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="43" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-18.5" vertical-offset="1287" max-vertical-offset="2278">
+            <state line="96" column="42" selection-start="4001" selection-end="4001" vertical-scroll-proportion="0.45816734" vertical-offset="1287" max-vertical-offset="2278">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -447,7 +446,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -802,19 +801,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="43" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-18.5" vertical-offset="1287" max-vertical-offset="2278">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="234" column="0" selection-start="8223" selection-end="8223" vertical-scroll-proportion="-19.307692" vertical-offset="3476" max-vertical-offset="4233">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="0" selection-start="8223" selection-end="8223" vertical-scroll-proportion="0.81621623" vertical-offset="3374" max-vertical-offset="4233">
-          <folding />
+        <state line="96" column="42" selection-start="4001" selection-end="4001" vertical-scroll-proportion="0.45816734" vertical-offset="1287" max-vertical-offset="2278">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
