@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift_total.php" afterPath="$PROJECT_DIR$/application/views/gift_total.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/user_model.php" afterPath="$PROJECT_DIR$/application/models/user_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="gift_total.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.39043826" vertical-offset="63" max-vertical-offset="2329">
+            <state line="17" column="42" selection-start="832" selection-end="832" vertical-scroll-proportion="0.3001328" vertical-offset="63" max-vertical-offset="2380">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -812,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.39043826" vertical-offset="63" max-vertical-offset="2329">
+        <state line="17" column="42" selection-start="832" selection-end="832" vertical-scroll-proportion="0.3001328" vertical-offset="63" max-vertical-offset="2380">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
