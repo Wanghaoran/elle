@@ -98,8 +98,8 @@
                     <?php endif; ?>
                     <td><?=$value['language']?></td>
                     <td><?=$value['city']?></td>
+                    <td><?=$value['province']?></td>
                     <td><?=$value['country']?></td>
-                    <td>123</td>
                     <?php if($value['gift'] == 1): ?>
                         <td>双色票夹</td>
                     <?php elseif($value['gift'] == 2): ?>

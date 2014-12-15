@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a3753-82f4-464b-b370-a2697b4e920d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/gift_total.php" afterPath="$PROJECT_DIR$/application/views/gift_total.php" />
     </list>
     <ignored path="elle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="13" selection-start="4292" selection-end="4292" vertical-scroll-proportion="0.5866261" vertical-offset="1217" max-vertical-offset="4335">
+            <state line="117" column="13" selection-start="4292" selection-end="4292" vertical-scroll-proportion="-23.807692" vertical-offset="1370" max-vertical-offset="4335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift_total.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gift_total.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="140" selection-start="1403" selection-end="1403" vertical-scroll-proportion="-15.230769" vertical-offset="148" max-vertical-offset="2380">
+            <state line="100" column="43" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.57218844" vertical-offset="947" max-vertical-offset="2380">
               <folding />
             </state>
           </provider>
@@ -65,7 +64,7 @@
       <file leaf-file-name="detail_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="2040">
+            <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -74,7 +73,7 @@
       <file leaf-file-name="gift_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="279" selection-start="1226" selection-end="1236" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="901">
+            <state line="38" column="229" selection-start="1178" selection-end="1186" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -92,7 +91,7 @@
       <file leaf-file-name="gift.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/gift.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="189" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1700">
+            <state line="3" column="11" selection-start="189" selection-end="200" vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/models/gift_model.php" />
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
-        <option value="$PROJECT_DIR$/application/views/gift_total.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/views/gift_total.php" />
       </list>
     </option>
   </component>
@@ -438,7 +437,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -753,30 +752,9 @@
         <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2091" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="24" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/gift.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="189" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="279" selection-start="1226" selection-end="1236" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
@@ -788,16 +766,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
+    <entry file="file://$PROJECT_DIR$/application/views/gift.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="140" selection-start="1403" selection-end="1403" vertical-scroll-proportion="-15.230769" vertical-offset="148" max-vertical-offset="2380">
+        <state line="3" column="11" selection-start="189" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="13" selection-start="4292" selection-end="4292" vertical-scroll-proportion="0.5866261" vertical-offset="1217" max-vertical-offset="4335">
+        <state line="117" column="13" selection-start="4292" selection-end="4292" vertical-scroll-proportion="-23.807692" vertical-offset="1370" max-vertical-offset="4335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/detail_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/gift_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="229" selection-start="1178" selection-end="1186" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/gift_total.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="43" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.57218844" vertical-offset="947" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
