@@ -118,7 +118,7 @@ class Welcome extends CI_Controller {
             }
 
             //填充数组至2W
-            $gift_arr = array_pad($gift_arr, 20000, 6);
+            $gift_arr = array_pad($gift_arr, 30000, 6);
 
             $data['gift_num'] = $gift_arr[array_rand($gift_arr)];
 
