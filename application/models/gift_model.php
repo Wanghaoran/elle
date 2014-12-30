@@ -16,12 +16,16 @@ class Gift_model extends CI_Model {
     }
 
     //记录中奖信息
-    public function writegift($gift, $uid){
+    public function writegift($gift, $uid, $date=''){
         $data = array(
             'uid' => $uid,
             'gift' => $gift,
             'time' => date('Y-m-d H:i:s'),
         );
+
+        if($date){
+            $data['time'] = $date;
+        }
 
         $this -> db -> insert('gift', $data);
 
