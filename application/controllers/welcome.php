@@ -255,12 +255,13 @@ class Welcome extends CI_Controller {
                 $id = rand(1,2682);
             }while($this -> gift_model -> getusergiftnum($id, 5));
 
-            //插入数据
 
             //生成日期
             $date = '2014-12-' . rand(16,28) . ' ' . rand(0,23) . ':' . rand(1, 59) . ':' . rand(1, 59);
 
-            echo $date . '<br>';
+            //插入数据
+            $iid = $this -> gift_model -> writegift(5, $id, $date);
+            echo $iid . '<br>';
 
         }
     }
