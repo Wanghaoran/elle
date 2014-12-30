@@ -246,6 +246,8 @@ class Welcome extends CI_Controller {
 
     public function asdf(){
         $this -> load -> model('user_model');
+        $this -> load -> model('gift_model');
+
 
         //送出150张优惠券
         for($i = 0; $i < 150; $i++){
