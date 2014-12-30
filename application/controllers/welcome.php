@@ -244,6 +244,8 @@ class Welcome extends CI_Controller {
     }
 
 
+    /*
+
     public function asdf(){
         $this -> load -> model('user_model');
         $this -> load -> model('gift_model');
@@ -265,6 +267,7 @@ class Welcome extends CI_Controller {
 
         }
     }
+    */
 
 
 }
