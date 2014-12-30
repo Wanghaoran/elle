@@ -244,6 +244,19 @@ class Welcome extends CI_Controller {
     }
 
 
+    public function asdf(){
+        //送出150张优惠券
+        for($i = 0; $i < 150; $i++){
+            do{
+                $id = rand(1,2682);
+            }while($this -> gift_model -> getusergiftnum($id, 5));
+
+            echo $id . '<br>';
+
+        }
+    }
+
+
 }
 
 /* End of file welcome.php */
