@@ -39,7 +39,7 @@ class Gift_model extends CI_Model {
         $this->db->select('elle_gift.id as id,elle_gift.gift as gift, elle_gift.time as time,elle_user.nickname as nickname,elle_user.sex as sex,elle_user.language as language,elle_user.city as city,elle_user.province as province,elle_user.country as country,elle_user.headimgurl as headimgurl');
         $this->db->from('elle_gift');
         $this->db->join('elle_user', 'elle_gift.uid = elle_user.id');
-        $this->db->order_by('time', 'desc');
+        $this->db->order_by('time', 'asc');
         $query = $this->db->get();
         return $query -> result_array();
     }
