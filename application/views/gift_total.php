@@ -71,7 +71,6 @@
         <table class="table table-hover table-striped">
             <thead>
             <tr>
-                <th>编号</th>
                 <th>头像</th>
                 <th>微信昵称</th>
                 <th>性别</th>
@@ -86,7 +85,6 @@
             <tbody>
                 <?php foreach($all_user as $key => $value): ?>
                 <tr>
-                    <td><?=$value['id']?></td>
                     <td><img src="<?=$value['headimgurl']?>" width="30"></td>
                     <td><?=$value['nickname']?></td>
                     <?php if($value['sex'] == 1): ?>
